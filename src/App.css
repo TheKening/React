@@ -1,0 +1,56 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 100%;
+    overflow: hidden;
+}/* Cambia .footer a algo más específico */
+.footer-ultimate {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-ultimate a {
+    color: #00bcd4;
+    text-decoration: none;
+}
+
+.footer-ultimate a:hover {
+    text-decoration: underline;
+}
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer h5 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.footer p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+.footer a {
+    color: #00bcd4;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
